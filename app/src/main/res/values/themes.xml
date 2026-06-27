@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.DateTimeNotification" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#6A1B9A</item>
+        <item name="colorPrimaryVariant">#4A148C</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+    </style>
+</resources>

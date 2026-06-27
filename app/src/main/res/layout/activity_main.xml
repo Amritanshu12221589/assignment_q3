@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F3E5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📅 Schedule Notification"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#6A1B9A"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnPickDate"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📅 Pick Date"
+        android:textSize="16sp"
+        android:backgroundTint="#7B1FA2"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No date selected"
+        android:textSize="15sp"
+        android:textColor="#555"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnPickTime"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="⏰ Pick Time"
+        android:textSize="16sp"
+        android:backgroundTint="#7B1FA2"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:id="@+id/tvSelectedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No time selected"
+        android:textSize="15sp"
+        android:textColor="#555"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnNotify"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🔔 Send Notification"
+        android:textSize="16sp"
+        android:backgroundTint="#4CAF50"/>
+
+    <TextView
+        android:id="@+id/tvScheduled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="#4CAF50"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+
+</LinearLayout>
